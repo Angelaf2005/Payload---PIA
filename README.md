@@ -14,6 +14,25 @@ Simular un payload educativo en C++ que realice una petición GET controlada a u
 git clone https://github.com/Angelaf2005/Payload---PIA.git
 ```
 
+## Compilación
+Desde el directorio del proyecto:
+```
+g++ ./src/client.cpp -o ./bin/client
+```
+
+Usando build.sh:
+```
+chmod +x build.sh
+./build.sh
+```
+
+## Ejecución
+Desde el directorio donde se guardó el binario:
+```
+./client 127.0.0.1 8080
+```
+
+
 ### Inicio del Servidor de Control (Python)
 El servidor se utiliza para simular la respuesta.
 
