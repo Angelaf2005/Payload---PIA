@@ -4,10 +4,9 @@
 ### Entorno de pruebas
 - **Sistema operativo:** Debian (Kali Linux 2024.3)
 - **Arquitectura:** x86_64 (64-bits)
-- **Interfaz:** 
 - **Compilador:** g++ 14.2.0
 - **Ruta del binario:** /bin/client
-- **Adaptador::** Red interna
+- **Adaptador:** Red interna
 
 ### Caso de prueba
 - **Descripción:** Verificar funcionamiento minimo del cliente.
@@ -26,6 +25,6 @@ Servicio en línea
 ```
 
 ### Evidencias / Resultados
-- **Captura 1:** [compilación](/evidences/evidence_01_06112025)
-- **Captura 2:** [ejecución](/evidences/evidence_02_06112025)
-- **Captura 3:** [servidor](/evidences/evidence_03_06112025)
+- **Captura 1:** [compilación](/evidence/test_n1/evidence_01_06112025.png)
+- **Captura 2:** [ejecución](/evidence/test_n1/evidence_02_06112025.png)
+- **Captura 3:** [servidor](/evidence/test_n1/evidence_03_06112025.png)
