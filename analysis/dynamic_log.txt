@@ -1,0 +1,6 @@
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.10.12
+Date: Sun, 09 Nov 2025 02:00:36 GMT
+Content-type: text/plain; charset=utf-8
+
+Servicio en línea

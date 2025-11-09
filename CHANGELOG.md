@@ -4,3 +4,4 @@
 06-11-2025 - Kenneth, Raul - "Pruebas en VM en un entorno aislado y registro de evidencias"
 06-11-2025 - Raul - "Creación del build.sh para compilación del codigo"
 06-11-2025 - Angel, Abraham, Kenneth, Raul - "Avance del PIA — Tarea6 — [Angel, Abraham, Kenneth, Raul]"
+09-11-2025 — Abraham — "Análisis Dinámico: Ejecución de pruebas funcionales" 
