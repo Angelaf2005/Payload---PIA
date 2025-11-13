@@ -51,7 +51,7 @@ void validarPuerto(int port) {
  
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        std::cout << "Usage: " << argv[0] << "<ip> <port>" << std::endl;
+        std::cout << "Usage: " << argv[0] << " <ip> <port>" << std::endl;
         return 1;
     }
 
@@ -64,5 +64,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-
-
