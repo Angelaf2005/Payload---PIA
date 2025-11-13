@@ -28,3 +28,33 @@ Servicio en línea
 - **Captura 1:** [compilación](/evidence/test_n1/evidence_01_06112025.png)
 - **Captura 2:** [ejecución](/evidence/test_n1/evidence_02_06112025.png)
 - **Captura 3:** [servidor](/evidence/test_n1/evidence_03_06112025.png)
+
+---
+## Test N2 - 12/11/2025
+### Entorno de pruebas
+- **Sistema operativo:** Debian (Kali Linux 2024.3)
+- **Arquitectura:** x86_64 (64-bits)
+- **Compilador:** g++ 14.2.0
+- **Ruta del binario:** /bin/client
+- **Adaptador:** Red interna
+
+### Caso de prueba
+- **Descripción:** Prueba de funcionamiento final del cliente.
+- **Compilación:** `g++ client.cpp -o client`
+- **Comando ejecutado servidor:** `python3 server.py`
+- **Comando ejecutado cliente:** `./client 127.0.0.1 8080`
+- **Entrada:** `127.0.0.1, 80`
+- **Estado:** Exitoso
+- **Resultado:**
+```
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.12.6
+Date: Thu, 13 Nov 2025 04:33:34 GMT
+Content-type: text/plain; charset=utf-8
+
+Servicio en línea
+```
+### Evidencias / Resultados
+- **Captura 1:** [cliente](/evidence/test_n2/evidence_20251112_cliente.png)
+- **Captura 2:** [servidor](/evidence/test_n2/evidence_20251112_servidor.png)
+- **Captura 3:** [snapshot_vm](/evidence/test_n2/evidence_20251112_vm_snapshot.png)
