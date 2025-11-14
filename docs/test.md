@@ -25,9 +25,9 @@ Servicio en línea
 ```
 
 ### Evidencias / Resultados
-- **Captura 1:** [compilación](/evidence/test_n1/evidence_01_06112025.png)
-- **Captura 2:** [ejecución](/evidence/test_n1/evidence_02_06112025.png)
-- **Captura 3:** [servidor](/evidence/test_n1/evidence_03_06112025.png)
+- **Captura 1:** [compilación](/evidence/test_n1/evidence_20251106_compilacion.png)
+- **Captura 2:** [ejecución](/evidence/test_n1/evidence_20251106_ejecucion.png)
+- **Captura 3:** [servidor](/evidence/test_n1/evidence_20251106_servidor.png)
 
 ---
 ## Test N2 - 12/11/2025
