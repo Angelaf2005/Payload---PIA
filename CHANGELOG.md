@@ -11,3 +11,4 @@
 13-11-2025 — Kenneth, Raul — "Creación de METADATA.dm y registro de información de entorno aislado de pruebas"
 13-11-2025 — Kenneth, Raul — "Creación del borrador de reporte report_draf.md"
 13-11-2025 — Angel, Abraham, Kenneth, Raul — "3er avance PIA — [Angel, Abraham, Kenneth, Raul]"
+18-11-2025 — Abraham — "Fase 4 — Entrega final: Consolidación de binarios, validación de compilación, actualización de README.md"

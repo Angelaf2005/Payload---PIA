@@ -12,11 +12,16 @@ fi
 
 mkdir -p "$OUT_DIR"
 
-echo "Compilando $SRC -> $OUT"
-g++ "$SRC" -o "$OUT"
+# Version release
+echo "Compilando $SRC -> ${OUT}_release_x64"
+g++ "$SRC" -o "${OUT}_release_x64" -O2 
+
+# Version debug
+echo "Compilando versión debug $SRC -> ${OUT}_debug_x64"
+g++ "$SRC" -o "${OUT}_debug_x64" -g
 
 if [ $? -eq 0 ]; then
-	echo "Compilación OK: $OUT"
+	echo "Compilación exitosa: " && ls "$OUT_DIR"
 else
 	echo "Error en la compilación."
 	exit 1
