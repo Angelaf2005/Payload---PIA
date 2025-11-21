@@ -12,4 +12,5 @@
 [x] /evidence con mín. 3 capturas y video demo corto. 
 [x] DELIVERY_CHECKLIST.md con hash final y tag creado.
 [x] video_Carreon_Abraham.mp4 - 2a00c79 - 2:44
+[x] video_Martínez_Jesús_K.mp4 - 1169c70 - 5:07pm
 ```
