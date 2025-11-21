@@ -3,7 +3,7 @@
 [x] README.md con instrucciones reproducibles. 
 [x] ETHICS.md final firmado. 
 [x] METADATA.md con configuración de VMs y herramientas. 
-[ ] CHANGELOG.md actualizado. 
+[x] CHANGELOG.md actualizado. 
 [x] /src con código completo y documentado. 
 [x] /bin con versiones requeridas. 
 [x] /docs/report_final.pdf completo. 
