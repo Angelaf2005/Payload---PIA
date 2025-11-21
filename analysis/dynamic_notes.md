@@ -9,7 +9,7 @@
 **Comportamiento Observado:**
 1.  El payload estableció inmediatamente una conexión TCP/IP al puerto 8080.
 2.  Se envió una solicitud HTTP con el método GET y la ruta `/status`.
-3.  El servidor respondió con el código 200 OK y el cuerpo "Servicio en línea".
+3.  El servidor respondió con el código 200 OK y el cuerpo "Servicio en l¿'09ínea".
 4.  El payload procesó la respuesta y terminó su ejecución.
 
 **Comportamiento Anticipado vs. Observado:**

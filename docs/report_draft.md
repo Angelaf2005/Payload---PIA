@@ -16,7 +16,7 @@ El payload realiza una petición HTTP GET  /status de un servidor local por defe
 - Interfaz de línea de comandos: main obtiene ip y port desde argv, convierte y valida antes de llamar al cliente.
 
 ### Manejo de memoria
-- Allocación en pila: El programa evita la asignación dinámica explícita (no hay new, malloc ni contenedores que hagan heap internamente en el fragmento dado), por lo que toda la memoria temporal clave (estructuras y buffer) está en la pila y se libera automáticamente al salir de cada función.
+- Locación en pila: El programa evita la asignación dinámica explícita (no hay new, malloc ni contenedores que hagan heap internamente en el fragmento dado), por lo que toda la memoria temporal clave (estructuras y buffer) está en la pila y se libera automáticamente al salir de cada función.
 - Recursos del sistema: El recurso principal que requiere liberación explícita es el descriptor de socket sock. El código llama a close(sock) al final de runClient para liberar el descriptor; sin embargo, hay casos en los que los errores se imprimen pero no se hace return o close inmediatamente (por ejemplo, si socket() falla el valor de sock es negativo y no debe cerrarse; si connect() falla, el descriptor sí existe y debería cerrarse antes de salir).
 - Recepción de datos: recv escribe hasta sizeof(buffer) - 1 bytes y el código añade '\0' en buffer[bytesReceived], asegurando nul-terminación para impresión segura. Se debe controlar el caso de recv que devuelve -1 (error) para evitar usar un índice negativo.
 - Ausencia de fugas de heap: Dado que no hay heap usage en el código actual, no hay fugas de heap; sin embargo, el manejo de recursos del sistema (sockets) debe ser robusto ante errores para evitar descriptores abiertos.
